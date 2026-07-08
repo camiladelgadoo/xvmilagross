@@ -168,7 +168,7 @@
        
 
         .message-text {
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             font-family: 'Cormorant Garamond', serif;
             max-width: 700px;
             margin: 1.5rem auto;
@@ -194,7 +194,7 @@
             background: white;
             background: var(--rosaocuro);
             padding: 1rem 1.8rem;
-            border-radius: 16px;
+            border-radius: 20px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.05);
             min-width: 100px;
             border: 1px solid var(--rosaocuro);
@@ -366,7 +366,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+
 }
 .social-links {
     display: flex;
@@ -536,11 +536,12 @@
 p {
     color: var(--rosaocuro);
 }
-h2{
-   font-size: 2.5rem; 
-}
+
 .icono-regalo,
 .tarjeta-regalo,
 .detail-card {
     margin-top: 2rem;
+}
+.titulo{
+ font-size: 2.5rem;    
 }
