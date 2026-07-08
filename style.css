@@ -182,14 +182,15 @@
             background: var(--blanco);
         }
 
-        .countdown-wrapper {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            margin: 2rem 0;
-        }
-
+   
+.countdown-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: nowrap; /* o directamente eliminá esta línea */
+      margin-top: 2.5rem;
+}
         .time-box {
             background: white;
             background: var(--rosaocuro);
@@ -199,7 +200,20 @@
             min-width: 100px;
             border: 1px solid var(--rosaocuro);
         }
+.time-box {
+    background: var(--rosaocuro);
+    padding: 1rem 1.8rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    min-width: 100px;
+    border: 1px solid var(--rosaocuro);
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
         .time-number {
             font-size: 2.5rem;
             font-weight: 600;
@@ -250,7 +264,7 @@
             color: white;
             border: none;
             padding: 14px 40px;
-            font-size: 1rem;
+            font-size: 0.8rem;
             font-weight: 500;
             letter-spacing: 2px;
             border-radius: 40px;
@@ -324,7 +338,7 @@
 
         footer {
             background: var(--rosaclaro);
-            padding: 2rem;
+       
             text-align: center;
             font-size: 0.8rem;
             color: var(--rosaocuro);
@@ -341,7 +355,7 @@
         .footer {
     background-color: var(--rosaocuro);
     color: var(--blanco);
-    padding: 3rem 0;
+    
     text-align: center;
 }
 
@@ -543,5 +557,11 @@ p {
     margin-top: 2rem;
 }
 .titulo{
- font-size: 2.5rem;    
+ font-size: 1.8rem;    
+}
+footer {
+    background: #e483b7;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
 }
